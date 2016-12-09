@@ -188,21 +188,46 @@ opacity: 1.0;
 
 
 
+@media screen and (max-width: 620px) {
+  .search-box input {
+    width: 80%;
+  }
+}
 
+@media screen and (max-width: 468px) {
+  .profile-img {
+    display: none;
 
+  }
+}
 
+/* iPhone 6 Plus optimization */
+@media screen and (max-width: 414px) {
 
+  * {
+    font-size: 15px;
+  }
 
+}
 
+@media screen and (max-width: 510px) {
+  .bottom-site-links .left-site-links, .right-site-links {
+    float: none;
+    text-align: center;
+  }
+}
 
+@media screen and (max-width: 376px) {
+  .share-button {
+    position: absolute;
+    margin-top: -24px;
+  }
+}
 
-
-
-
-
-
-
-
-
+@media screen and (max-width: 320px) {
+  .share-button {
+    display: none;
+  }
+}
 
 
